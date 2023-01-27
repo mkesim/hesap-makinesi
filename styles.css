@@ -1,22 +1,35 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Iskenderun Teknik Üniversitesi Hesap Makinesi</title>
-    <style>
-      /* CSS kodlarınız */
-      .logo {
-        width: 150px; /* logo genişliği */
-        height: auto; /* logo yüksekliği */
-        margin: 0 auto; /* logo merkezde */
-      }
-    </style>
-  </head>
-  <body>
-    <div class="logo">
-      <img src="https://iste.edu.tr/files/yatay_logo.png" alt="Iskenderun Teknik Üniversitesi Logo">
-    </div>
-    <div class="calculator">
-      <!-- Hesap makinesi kodlarınız -->
-    </div>
-  </body>
-</html>
+#calculator{
+width: 300px;
+border: 2px black solid;
+vertical-align:middle;
+margin: 20%;
+background-image: url('https://iste.edu.tr/files/yatay_logo.png');
+background-repeat: no-repeat;
+background-position: center;
+}
+.row{
+padding-left: 15px;
+}
+.output{
+height: 30px;
+width: 275px;
+padding: 5px;
+border: 1px black solid;
+margin: 8px;
+}
+.button{
+padding: 3px;
+}
+.buttons{
+margin-left: 5px;
+}
+.logo{
+width: 50px;
+height: 50px;
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+
+
